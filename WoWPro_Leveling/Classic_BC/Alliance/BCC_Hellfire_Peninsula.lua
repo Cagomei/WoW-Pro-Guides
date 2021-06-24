@@ -10,8 +10,8 @@ return [[
 
 F Nethergarde Keep|AVAILABLE|10288|N|Fly to Nethergarde Keep in the Blasted Lands.|
 B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep.|M|63.51,17.01|Z|Blasted Lands|
-R Hellfire Peninsula|AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|58.74,60.78|Z|Blasted Lands|
 A Through the Dark Portal|QID|10119|M|58.32,55.91|Z|Blasted Lands|N|From Watch Commander Relthorn Netherwane.|
+R Hellfire Peninsula|AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|58.74,60.78|Z|Blasted Lands|
 T Through the Dark Portal|QID|10119|M|87.34,50.74|N|To Commander Duron.|
 A Arrival in Outland|QID|10288|M|87.3,50.7|N|From Commander Duron.|
 T Arrival in Outland|QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|
@@ -41,16 +41,7 @@ C Burn Catapult 2|QID|10078|N|Burn the second thrower here with the Flaming Torc
 C Burn Catapult 3|QID|10078|N|Burn the third thrower here with the Flaming Torch. |QO|3|U|26002|M|53.50,47.20|
 C Laying Waste to the Unwanted|N|Burn the last thrower here.|QO|4|QID|10078|U|26002|M|52.80,47.20|
 R Temple of Telhamat|AVAILABLE|9390|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
-A Deadly Predators|QID|9398|M|23.4,39.7|N|From Scout Vanura.|
-A In Search of Sedai|QID|9390|M|23.01,40.37|N|From Anchorite Obadei.|
-A Cruel Taskmasters|QID|9399|M|23.09,40.22|N|From Ikan.|
-A The Rock Flayer Matriarch|QID|9490|M|23.09,40.22|N|From Ikan.|
-A The Pools of Aggonar|QID|9426|M|23.42,36.55|N|From Amaan the Wise.|
 f Temple of Telhamat|QID|9390|N|Get the flight path.|M|25.20,37.20|
-T In Search of Sedai|QID|9390|M|26.89,37.42|N|To Sedai's Corpse.|
-A Return to Obadei|QID|9423|PRE|9390|M|26.89,37.42|N|From Sedai's Corpse.|
-T Return to Obadei|QID|9423|M|23.01,40.37|N|To Anchorite Obadei.|
-A Makuru's Vengeance|QID|9424|PRE|9423|M|23.14,40.17|N|From Makuru.|
 F Honor Hold|QID|10142|N|Fly to Honor Hold.|M|25.20,37.20|
 T The Path of Anguish|QID|10142|M|61.7,60.8|N|To Sergeant Altumus.|
 A Expedition Point|QID|10143|PRE|10142|M|61.7,60.8|N|From Sergeant Altumus.|
@@ -91,8 +82,6 @@ l Demonic Rune Stones|QID|10144|N|Kill Demons until you have 4 Demonic Rune Ston
 C Disrupt Their Reinforcements|N|Disrupt the portal here.|QO|1|QID|10144|M|71.50,55.15|
 T Disrupt Their Reinforcements|QID|10144|M|71.3,62.8|N|To Forward Commander Kingston.|
 A Mission: The Murketh and Shaadraz Gateways|QID|10146|PRE|10144|M|71.3,62.8|N|Forward Commander Kingston.|
-; N step not needed if you added |U| step to C step
-;N Seaforium PU-36 Explosive Nether Modulator|QID|10146|N|Hotkey this item, then right-click the box to continue.|M|71.40,62.50|
 C Mission: The Murketh and Shaadraz Gateways|QID|10146|M|71.40,62.50|QO|1;2|N|Talk to Wing Commander Dabir'ee to begin flying and use the Seaforium PU-36 Explosive Nether Modulator bomb to destroy the gateways.|U|28038|
 T Mission: The Murketh and Shaadraz Gateways|QID|10146|M|71.4,62.7|N|To Forward Commander Kingston.|
 A Shatter Point|QID|10340|PRE|10146|M|71.4,62.7|N|Forward Commander Kingston.|
@@ -102,7 +91,6 @@ T Shatter Point|QID|10340|M|78.4,34.9|N|To Runetog Wildhammer.|
 A Wing Commander Gryphongar|QID|10344|PRE|10340|M|78.4,34.9|N|From Runetog Wildhammer.|
 T Wing Commander Gryphongar|QID|10344|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Mission: The Abyssal Shelf|QID|10163|PRE|10344|M|79.3,33.9|N|From Wing Commander Gryphongar.|
-; ** This step not required ** N Area 52 Special|QID|10163|N|Hotkey this item, then right-click the box to continue.|M|79.3,33.9|
 C Mission: The Abyssal Shelf|QID|10163|M|78.35,34.36|QO|1;2;3|N|Talk to Gryphoneer Windbellow and ask to go to the Abyssal Shelf. Use the Area 52 Special bomb to kill the mobs needed for this quest.|U|28132|
 T Mission: The Abyssal Shelf|QID|10163|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Go to the Front|QID|10382|PRE|10163|M|79.3,33.9|N|From Wing Commander Gryphongar.|
@@ -121,7 +109,6 @@ A The Dark Missive|QID|10395|N|Accept the quest from the UI or use the item.|U|2
 T Invasion Point: Annihilator|QID|10397|N|To Field Marshal Brock.|M|68.3,28.6|
 H Honor Hold|QID|10903|N|Hearth to Honor Hold. |U|6948|M|54.50,63.60|
 A An Old Gift|QID|10058|PRE|10143^10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
-A The Longbeards|QID|9558|LEAD|9417|PRE|10143^10483|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold|QID|10903|M|54.32,63.65|N|Upstairs to Assistant Klatu.|
 A Fel Spirits|QID|10909|PRE|10903|M|54.32,63.65|N|From Assistant Klatu.|
 A Digging for Prayer Beads|QID|10916|PRE|10903|M|54.32,63.65|N|From Assistant Klatu.|
@@ -130,7 +117,6 @@ B Fei Fei Doggy Treat|AVAILABLE|10916|M|56.39,62.92|N|Buy a treat from Warrant O
 T Fei Fei's Treat|AVAILABLE|10916|M|56.40,62.94|N|Give the doggy treat to Fei Fei to continue the quest chain.|LEAD|10916|
 C Draenei Prayer Beads|QID|10916|M|54.16,63.32|QO|1|N|Give the treat to Fei Fei, then follow the dog. Loot Fei Fei's Cache (glittering dirt pile) once she stops at the waypoint.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
-A Hellfire Fortifications|QID|10106|PRE|13408^13410|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|O|
 T The Dark Missive|QID|10395|M|56.69,66.52|N|Head to Warp-Scryer Kryv.|
 A The Heart of Darkness|QID|10399|PRE|10395|M|56.69,66.52|N|From Warp-Scryer Kryv.|
 A The Path of Glory|QID|10047|PRE|10143^10483|M|56.69,66.52|N|From Warp-Scryer Kryv.|
@@ -138,9 +124,10 @@ A Overlord|QID|10400|PRE|10395|M|56.64,66.69|N|From Force Commander Danath Troll
 A Unyielding Souls|QID|10050|PRE|10143^10483|M|50.87,60.35|N|From Honor Guard Wesilow.|
 A A Job for an Intelligent Man|QID|9355|PRE|10143^10483|M|52.0,62.6|N|From Foreman Biggums.|
 A When This Mine's a-Rockin'|QID|10079|PRE|10143^10483|M|52.0,62.6|N|From Foreman Biggums.|
-C A Job for an Intelligent Man|QID|9355|M|46.00,64.00|N|Kill the sandworms needed for this quest.|
+C A Job for an Intelligent Man|QID|9355|M|46.00,64.00|N|Kill the sandworms needed for this quest.|S|
 l Eroded Leather Case|QID|9373|N|Kill worms until you get an Eroded Leather Case.|L|23338|
 A Missing Missive|AVAILABLE|9373|N|Right-click the case to accept the quest.|U|23338|LVL|24| ; ** Auto-accepted by UI **
+C A Job for an Intelligent Man|QID|9355|M|46.00,64.00|N|Kill the sandworms needed for this quest.|US|
 C Smooth as Butter|QID|9356|M|56.00,73.00|QO|1|N|Kill Buzzards until you get the wings for this quest.|
 C Zeppelin Debris|QID|10161|QO|1|N|Gather the rest of the Zeppelin debris you need.|US|NC|
 T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
@@ -154,10 +141,9 @@ A The Exorcism of Colonel Jules|QID|10935|PRE|10909&10916|M|54.32,63.65|N|From A
 C The Exorcism of Colonel Jules|QID|10935|M|53.90,63.55|QO|1|N|Talk to Anchorite Barada and start the ritual. Kill the mobs that spawn. When there are too many mobs in the room, use the Prayer Beads to kill them.\n[color=FF0000]NOTE: [/color]Talk to Colonel Jules afterwards to complete the quest.|U|31828|
 T The Exorcism of Colonel Jules|QID|10935|M|54.32,63.65|N|To Assistant Klatu.|
 A Trollbane is Looking for You|QID|10936|PRE|10935|M|54.32,63.65|N|From Assistant Klatu.|
+A The Longbeards|QID|9558|LEAD|9417|PRE|10143^10483|M|54.3,63.4|N|From Sid Limbardi.|LVL|60|
 T Trollbane is Looking for You|QID|10936|M|56.64,66.69|N|To Force Commander Danath Trollbane.|
 A Drill the Drillmaster|QID|10937|PRE|10936|M|54.32,63.65|N|From Force Commander Danath Trollbane.|
-F Shattrath|QID|9355|M|54.66,62.46|N|Fly to Shattrath City if you need to train skills, visit AH, etc.|TZ|Shattrath City|
-F Honor Hold|QID|9355|M|64.04,41.13|Z|Shattrath City|N|Fly back to Honor Hold.|
 T Unyielding Souls|QID|10050|M|50.87,60.35|N|To Honor Guard Wesilow.|
 A Looking to the Leadership|QID|10057|PRE|10050|M|50.87,60.35|N|From Honor Guard Wesilow.|
 T A Job for an Intelligent Man|QID|9355|M|52.0,62.6|N|To Foreman Biggums.|
@@ -174,25 +160,15 @@ T The Path of Glory|QID|10047|M|56.69,66.52|N|To Warp-Scryer Kryv.|
 A The Temple of Telhamat|QID|10093|PRE|10047|M|56.69,66.52|N|From Warp-Scryer Kryv.|
 F Temple of Telhamat|QID|1|ACTIVE|10093^9373|M|54.68,62.35|N|Fly to The Temple of Telhamat.|
 T The Temple of Telhamat|QID|10093|M|23.42,36.55|N|To Amaan the Wise.|
-A Helping the Cenarion Post|QID|10443|LEAD|9372|M|23.42,36.55|N|From Amaan the Wise.|
-A An Ambitious Plan|QID|9383|M|23.21,36.67|N|From Elsaana.|
-T Missing Missive|QID|9373|M|15.71,52.08|N|To Thiah Redmane.|
-T Helping the Cenarion Post|QID|10443|M|15.71,52.08|N|To Thiah Redmane.|
-A Demonic Contamination|QID|9372|M|15.71,52.08|N|From Thiah Redmane.|
-A Keep Thornfang Hill Clear!|QID|10159|M|15.95,52.19|N|From Mahuram Stouthoof.|
-A Colossal Menace|QID|10132|M|15.62,52.04|N|From Tola'thion.|
-A The Cenarion Expedition|QID|9912|M|16.03,52.16|N|From Amythiel Mistwalker.|
-C Colossal Menace|QID|10132|M|14.73,45.41|QO|1|N|Kill Raging Colossus until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|
-l Crimson Crystal Shard|QID|10134|L|29476|N|Continue to kill Colossi until one drops.|
-A Crimson Crystal Clue|QID|10134|N|Right-click the Shard to start the quest.|; ** Auto-accepted by UI **
-T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
-T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
-A The Earthbinder|QID|10349|PRE|10134|M|15.62,52.04|N|From Tola'thion.|
-T The Earthbinder|QID|10349|M|15.96,51.57|N|To Earthbinder Galandria Nightbreeze.|
-A Natural Remedies|QID|10351|PRE|10349|M|15.96,51.57|N|From Earthbinder Galandria Nightbreeze.|
-C Natural Remedies|QID|10351|M|13.64,39.11|N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|U|29478|
-T Natural Remedies|QID|10351|M|15.96,51.57|N|To Earthbind Galandria Nightbreeze.|
-C Demonic Contamination|QID|9372|QO|1|N|Kill Hulking Helboars to get the samples for this quest.|S|
+A The Pools of Aggonar|QID|9426|M|23.42,36.55|N|From Amaan the Wise.|LVL|60|
+A Deadly Predators|QID|9398|M|23.4,39.7|N|From Scout Vanura.|LVL|60|
+A In Search of Sedai|QID|9390|M|23.01,40.37|N|From Anchorite Obadei.|LVL|60|
+A Cruel Taskmasters|QID|9399|M|23.09,40.22|N|From Ikan.|LVL|60|
+A The Rock Flayer Matriarch|QID|9490|M|23.09,40.22|N|From Ikan.|LVL|60|
+T In Search of Sedai|QID|9390|M|26.89,37.42|N|To Sedai's Corpse.|
+A Return to Obadei|QID|9423|PRE|9390|M|26.89,37.42|N|From Sedai's Corpse.|
+T Return to Obadei|QID|9423|M|23.01,40.37|N|To Anchorite Obadei.|
+A Makuru's Vengeance|QID|9424|PRE|9423|M|23.14,40.17|N|From Makuru.|
 T The Longbeards|QID|9558|M|23.89,72.17|N|To Gremni Longbeard.|
 A The Arakkoa Threat|QID|9417|M|23.89,72.17|N|From Gremni Longbeard.|
 A Rampaging Ravagers|QID|9385|M|23.89,72.17|N|From Gremni Longbeard.|
@@ -294,5 +270,25 @@ T The Seer's Relic|QID|9545|M|23.42,36.55|N|To Amaan the Wise.|
 h Temple of Telhamat|M|23.23,36.5|N|At Caregiver Ophera Windfury.|
 F Shattrath City|M|25.18,37.22|N|Fly to Shattrath to visit you trainers, AH, etc.|
 H Temple of Telhamat|N|Hearth back to the Temple of Telhamat, this is will continue to the next guide.|
+
+A Helping the Cenarion Post|QID|10443|LEAD|9372|M|23.42,36.55|N|From Amaan the Wise.|LVL|61|
+A An Ambitious Plan|QID|9383|M|23.21,36.67|N|From Elsaana.|
+T Missing Missive|QID|9373|M|15.71,52.08|N|To Thiah Redmane.|
+T Helping the Cenarion Post|QID|10443|M|15.71,52.08|N|To Thiah Redmane.|
+A Demonic Contamination|QID|9372|M|15.71,52.08|N|From Thiah Redmane.|LVL|61|
+A Keep Thornfang Hill Clear!|QID|10159|M|15.95,52.19|N|From Mahuram Stouthoof.|LVL|61|
+A Colossal Menace|QID|10132|M|15.62,52.04|N|From Tola'thion.|LVL|61|
+A The Cenarion Expedition|QID|9912|M|16.03,52.16|N|From Amythiel Mistwalker.|LVL|61|
+C Colossal Menace|QID|10132|M|14.73,45.41|QO|1|N|Kill Raging Colossus until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|
+l Crimson Crystal Shard|QID|10134|L|29476|N|Continue to kill Colossi until one drops.|
+A Crimson Crystal Clue|QID|10134|N|Right-click the Shard to start the quest.|; ** Auto-accepted by UI **
+T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
+T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
+A The Earthbinder|QID|10349|PRE|10134|M|15.62,52.04|N|From Tola'thion.|LVL|61|
+T The Earthbinder|QID|10349|M|15.96,51.57|N|To Earthbinder Galandria Nightbreeze.|
+A Natural Remedies|QID|10351|PRE|10349|M|15.96,51.57|N|From Earthbinder Galandria Nightbreeze.|LVL|61|
+C Natural Remedies|QID|10351|M|13.64,39.11|N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|U|29478|
+T Natural Remedies|QID|10351|M|15.96,51.57|N|To Earthbind Galandria Nightbreeze.|
+C Demonic Contamination|QID|9372|QO|1|N|Kill Hulking Helboars to get the samples for this quest.|S|
 ]]
 end)
