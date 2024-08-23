@@ -1,8 +1,8 @@
-local guide = WoWPro:RegisterGuide('Aes TWW Speedrunning Guide', 'Leveling', 'Isle of Dorn', 'Aes', 'Neutral')
-WoWPro:GuideName(guide,"Aes TWW Speedrunning Guide")
-WoWPro:GuideContent(guide, 10)
+local guide = WoWPro:RegisterGuide('Isle of Dorn', 'Leveling', 'Isle of Dorn', 'Aes', 'Neutral')
+WoWPro:GuideName(guide,"Isle of Dorn")
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideLevels(guide,70, 80)
-WoWPro:GuideSort(guide, 10)
+WoWPro:GuideNextGuide(guide, 'The Ringing Deeps')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -120,46 +120,46 @@ C Delve into the Earth|QID|78464|M|38.86,73.30|Z|2248|QO|3|NC|N|Open the Explore
 C Delve into the Earth|QID|78464|M|38.86,73.30|Z|2248|QO|4|NC|N|Select a Combat Role for Brann Bronzebeard.|
 C Delve into the Earth|QID|78464|M|44.98,11.86|Z|2269|QO|5|NC|N|Earthcrawl Mines entered.|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|1|S|N||
-C Plan discussed with Pivk|M|42.86,15.88|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|1;1|N|Plan discussed with Pivk|
-C Webbed Hookshot obtained|M|41.98,15.83|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|1;2|N|Webbed Hookshot obtained|
+C Plan discussed with Pivk|M|42.86,15.88|Z|2269; Earthcrawl Mines!Dungeon|SO|1;1|N|Plan discussed with Pivk|
+C Webbed Hookshot obtained|M|41.98,15.83|Z|2269; Earthcrawl Mines!Dungeon|SO|1;2|N|Webbed Hookshot obtained|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|1|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|2|S|N||
-C Cart guided forward|M|40.55,27.19|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|2;1|N|Cart guided forward|
+C Cart guided forward|M|40.55,27.19|Z|2269; Earthcrawl Mines!Dungeon|SO|2;1|N|Cart guided forward|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|2|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|3|S|N||
-C Use the Webbed Hookshot on any Grapple Point|M|40.40,26.17|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|3;2|N|Use the Webbed Hookshot on any Grapple Point|
-C Miners rescued|M|40.40,26.80|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|3;1|N|Miners rescued|
+C Use the Webbed Hookshot on any Grapple Point|M|40.40,26.17|Z|2269; Earthcrawl Mines!Dungeon|SO|3;2|N|Use the Webbed Hookshot on any Grapple Point|
+C Miners rescued|M|40.40,26.80|Z|2269; Earthcrawl Mines!Dungeon|SO|3;1|N|Miners rescued|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|3|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|4|S|N||
-C Cart guided forward|M|41.85,29.50|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|4;1|N|Cart guided forward|
+C Cart guided forward|M|41.85,29.50|Z|2269; Earthcrawl Mines!Dungeon|SO|4;1|N|Cart guided forward|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|4|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|5|S|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|5|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|6|S|N||
-C Groups of ambushers defeated|M|41.70,29.24|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|5;1|N|Groups of ambushers defeated|
-C Miners rescued|M|37.08,38.79|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|6;1|N|Miners rescued|
+C Groups of ambushers defeated|M|41.70,29.24|Z|2269; Earthcrawl Mines!Dungeon|SO|5;1|N|Groups of ambushers defeated|
+C Miners rescued|M|37.08,38.79|Z|2269; Earthcrawl Mines!Dungeon|SO|6;1|N|Miners rescued|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|6|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|7|S|N||
-C Speak with Pivk at the upper level|M|33.97,36.50|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|7;1|N|Speak with Pivk at the upper level|
+C Speak with Pivk at the upper level|M|33.97,36.50|Z|2269; Earthcrawl Mines!Dungeon|SO|7;1|N|Speak with Pivk at the upper level|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|7|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|8|S|N||
-C Cart guided forward|M|39.44,43.12|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|8;1|N|Cart guided forward|
+C Cart guided forward|M|39.44,43.12|Z|2269; Earthcrawl Mines!Dungeon|SO|8;1|N|Cart guided forward|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|8|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|9|S|N||
-C Ambush defeated|M|39.53,43.11|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|9;1|N|Ambush defeated|
+C Ambush defeated|M|39.53,43.11|Z|2269; Earthcrawl Mines!Dungeon|SO|9;1|N|Ambush defeated|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|9|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|10|S|N||
-C Nerubian groups defeated|M|51.51,71.74|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|10;1|N|Nerubian groups defeated|
+C Nerubian groups defeated|M|51.51,71.74|Z|2269; Earthcrawl Mines!Dungeon|SO|10;1|N|Nerubian groups defeated|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|10|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|11|S|N||
-C Web General Ab'enar defeated|M|56.21,78.92|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
+C Web General Ab'enar defeated|M|56.21,78.92|Z|2269; Earthcrawl Mines!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|11|US|N|nil|
-C Web General Ab'enar defeated|M|56.22,78.93|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
+C Web General Ab'enar defeated|M|56.22,78.93|Z|2269; Earthcrawl Mines!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
 C nil|Z|Earthcrawl Mines|SO|0|S|N|nil|
 C Delve into the Earth|QID|78464|M|56.28,79.06|Z|2269|QO|6|NC|N|Earthcrawl Mines objectives completed.|
 C nil|Z|Earthcrawl Mines|SO|0|S|N|nil|
 C Treasure Room|Z|Earthcrawl Mines|SO|1|S|N||
-C Treasure found|M|56.87,77.97|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|1;1|N|Treasure found|
+C Treasure found|M|56.87,77.97|Z|2269; Earthcrawl Mines!Dungeon|SO|1;1|N|Treasure found|
 C Treasure Room|Z|Earthcrawl Mines|SO|1|US|N||
 C Collect Your Reward!|Z|Earthcrawl Mines|SO|2|S|N||
 C Delve into the Earth|QID|78464|M|64.99,87.70|Z|2269|QO|7|NC|N|Earthcrawl Mines treasure found.|
@@ -273,6 +273,19 @@ T The Spirebreaker|QID|83339|M|58.32,27.17|Z|2248|N|To Violet Warden.|
 T The Mage Slayer|QID|83338|M|58.32,27.17|Z|2248|N|To Violet Warden.|
 A How Scandalous!|QID|80207|PRE|83335&81675|M|62.60,21.86|Z|2339|N|From Aldra.|
 T Wanted: The Boroughbreaker|QID|83335|M|54.26,19.46|Z|2339|N|To Peacekeeper Alef.|
+A How Scandalous!|QID|80207|PRE|83335&81675|M|62.60,21.86|Z|2339|N|From Aldra.|
+C How Scandalous!|QID|80207|M|49.25,50.10|Z|2339|QO|1|NC|U|213271|N|Disturbance investigated near the Forgegrounds.|
+T How Scandalous!|QID|80207|M|49.79,49.47|Z|2339|N|To Peacekeeper Kragad.|
+A Seizing Evidence|QID|79521|PRE|80207|M|49.79,49.47|Z|2339|N|From Peacekeeper Kragad.|
+C Seizing Evidence|QID|79521|M|51.33,51.52|Z|2339|QO|1|NC|U|213271|N|Seized Shipment.|
+T Seizing Evidence|QID|79521|M|49.88,49.33|Z|2339|N|To Peacekeeper Kragad.|
+A Withheld Information|QID|79522|PRE|79521|M|49.87,49.22|Z|2339|N|From Peacekeeper Kragad.|
+C Withheld Information|QID|79522|M|49.11,49.48|Z|2339|QO|1|NC|U|213271|N|Line Workers interrogated.|
+T Withheld Information|QID|79522|M|49.78,49.49|Z|2339|N|To Peacekeeper Kragad.|
+A Something Hidden|QID|79523|PRE|79522|M|49.80,49.67|Z|2339|N|From Peacekeeper Kragad.|
+C Something Hidden|QID|79523|M|51.40,51.53|Z|2339|QO|1|NC|U|213271|N|Crates smashed.|
+C Something Hidden|QID|79523|M|51.37,51.51|Z|2339|QO|2|NC|U|213271|N|Evidence gathered.|
+T Something Hidden|QID|79523|M|49.89,49.46|Z|2339|N|To Peacekeeper Kragad.|
 T Convergence|QID|78471|M|40.17,26.04|Z|2339|N|To Moira Thaurissan.|
 A Group Effort|QID|78538|PRE|83337&83339&83338&78471|M|39.96,25.99|Z|2339|N|From Merrix.|
 C How Scandalous!|QID|80207|M|49.25,50.10|Z|2339|QO|1|NC|U|213271|N|Disturbance investigated near the Forgegrounds.|
@@ -360,94 +373,10 @@ A Pomp and Dire Circumstance|QID|78837|PRE|78557&78555|M|42.12,28.31|Z|2214|N|Fr
 C Pomp and Dire Circumstance|QID|78837|M|42.11,28.34|Z|2214|QO|1|CHAT|N|Ask Speaker Brinthe about the High Speaker.|
 T Pomp and Dire Circumstance|QID|78837|M|47.18,34.13|Z|2214|N|To Speaker Brinthe.|
 A Cogs in the Machine|QID|78838|PRE|78837|M|47.18,34.13|Z|2214|N|From Unknown.|
-A Home Is Where the Candle Is|QID|79683|PRE|78837|M|47.18,34.16|Z|2214|N|From Skitter.|
 C Cogs in the Machine|QID|78838|M|46.90,33.39|Z|2214|QO|1|NC|N|Meet Igram Underwing.|
 C Cogs in the Machine|QID|78838|M|46.93,32.41|Z|2214|QO|2|CHAT|N|Meet Speaker Jurlax.|
-A New Home, New Candle!|QID|81999|PRE|78837|M|47.76,35.34|Z|2214|N|From Janky.|
-A Kobold Kleanup|QID|80058|PRE|78837|M|47.78,35.37|Z|2214|N|From Fourman Grimes.|
-A Dripsy Forgot Her Candle|QID|79504|PRE|78837|M|47.94,35.76|Z|2214|N|From Granny Scribbles.|
-C Dripsy Forgot Her Candle|QID|79504|M|47.94,35.76|Z|2214|QO|1|NC|N|Ask Granny Scribbles about Dripsy.|
-C Dripsy Forgot Her Candle|QID|79504|M|67.99,49.80|Z|2214|QO|2|NC|N|Shiny Rocks or Sweetmeats gathered.|
-T Dripsy Forgot Her Candle|QID|79504|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
-A Chomps and the Cave-In|QID|79505|PRE|79504|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
-C Chomps and the Cave-In|QID|79505|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about Chomps.|
-C Chomps and the Cave-In|QID|79505|M|64.72,40.39|Z|2214|QO|2|NC|N|Dig up high.|
-C Chomps and the Cave-In|QID|79505|M|64.83,39.31|Z|2214|QO|3|NC|N|Trapped Kobolds freed.|
-T Chomps and the Cave-In|QID|79505|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
-A The Day the Stoneheads Came|QID|79507|PRE|79505|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
-C The Day the Stoneheads Came|QID|79507|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about the Day the Stoneheads Came.|
-A You Go Take Candle|QID|82519|PRE|79505|M|55.90,20.96|Z|2214|N|From Granny Scribbles.|
-C The Day the Stoneheads Came|QID|79507|M|56.03,23.21|Z|2214|QO|2|NC|N|Softsnout's Favorite Shovel.|
-C The Day the Stoneheads Came|QID|79507|M|55.39,22.99|Z|2214|QO|3|NC|N|Save what can be saved (100%).|
-T The Day the Stoneheads Came|QID|79507|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
-A Mipsy Mole-Rider|QID|79508|PRE|79507|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
-C Mipsy Mole-Rider|QID|79508|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about Mipsy.|
-C Mipsy Mole-Rider|QID|79508|M|71.84,39.88|Z|2214|QO|2|NC|N|Hungry Mole mounted.|
-C Mipsy Mole-Rider|QID|79508|M|71.87,39.37|Z|2214|QO|3|NC|N|Juicy Grub collected.|
-C Mipsy Mole-Rider|QID|79508|M|71.83,39.86|Z|2214|QO|4|NC|N|Hungry Mole mounted.|
-C Mipsy Mole-Rider|QID|79508|M|73.52,40.27|Z|2214|QO|5|NC|N|Mole riding course completed.|
-T Mipsy Mole-Rider|QID|79508|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
-A The Wickless Candle|QID|79510|PRE|79508|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
-C The Wickless Candle|QID|79510|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about the Wickless Candle.|
-C The Wickless Candle|QID|79510|M|70.10,38.42|Z|2214|QO|2|NC|N|Climbing started.|
-C The Wickless Candle|QID|79510|M|69.66,38.64|Z|2214|QO|3|NC|N|Climb upwards.|
-C The Wickless Candle|QID|79510|M|74.99,23.79|Z|2248|QO|4|NC|N|Leave cave.|
-C The Wickless Candle|QID|79510|M|74.31,24.19|Z|2248|QO|5|NC|N|Prooftelling Flower.|
-A Thanks for the Wax|QID|82957|PRE|79508|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
-T The Wickless Candle|QID|79510|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
-A On Cold, Dark Wings|QID|78900|PRE|78837|M|48.03,34.81|Z|2214|N|From Watcher Toki.|
 C Cogs in the Machine|QID|78838|M|48.03,34.81|Z|2214|QO|3|NC|N|Meet Watcher Toki.|
 h Gundargaz|QID|78918|M|47.94,32.16|Z|2214|N|At Innkeeper Brax.|
-T Kobold Kleanup|QID|80058|M|47.30,31.86|Z|2214|N|To Fourman Grimes.|
-A On the Job Training|QID|79556|PRE|80058|M|47.30,31.86|Z|2214|N|From Fourman Grimes.|
-C On the Job Training|QID|79556|M|47.30,31.86|Z|2214|QO|1|NC|N|Steamwarden Hurlt spoken to.|
-C On the Job Training|QID|79556|M|47.29,31.45|Z|2214|QO|2|NC|N|Steamworks repaired.|
-T On the Job Training|QID|79556|M|47.31,31.84|Z|2214|N|To Fourman Grimes.|
-A Pipe Patching|QID|79680|PRE|79556|M|47.31,31.84|Z|2214|N|From Fourman Grimes.|
-A Plumber Power|QID|79681|PRE|79556|M|47.31,31.84|Z|2214|N|From Fourman Grimes.|
-C Pipe Patching|QID|79680|M|48.70,31.74|Z|2214|QO|1|NC|N|Leaking pipes patched.|
-C Plumber Power|QID|79681|M|48.50,31.01|Z|2214|QO|1|NC|N|Tunnel Rat Crew Boss spoken to (Optional).|
-C Plumber Power|QID|79681|M|48.50,31.01|Z|2214|QO|2|NC|N|Steam tunnel unblocked.|
-T Pipe Patching|QID|79680|M|47.31,31.91|Z|2214|N|To Fourman Grimes.|
-T Plumber Power|QID|79681|M|47.31,31.91|Z|2214|N|To Fourman Grimes.|
-A Critical Pressure!|QID|79682|PRE|79680&79681|M|47.31,31.91|Z|2214|N|From Fourman Grimes.|
-C Critical Pressure!|QID|79682|M|48.05,32.15|Z|2214|QO|1|NC|N|Pressure relieved.|
-C Critical Pressure!|QID|79682|M|47.98,32.16|Z|2214|QO|2|N|Geothermus slain.|
-T Critical Pressure!|QID|79682|M|47.32,31.87|Z|2214|N|To Fourman Grimes.|
-C On Cold, Dark Wings|QID|78900|M|51.41,35.58|Z|2214|QO|1|N|The Ringing Death slain.|
-C New Home, New Candle!|QID|81999|M|53.37,44.55|Z|2214|QO|2|NC|N|Take the Pillarstone elevator to the surface (Optional).|
-N There might be a few prequests in this area to unlock the elevator|N| for the first time|
-C New Home, New Candle!|QID|81999|M|72.10,42.12|Z|2248|QO|1|NC|N|Meet Janky in the Cinderwold.|
-T New Home, New Candle!|QID|81999|M|72.08,42.07|Z|2248|N|To Janky.|
-A Hot Wax|QID|79552|PRE|81999|M|72.08,42.07|Z|2248|N|From Janky.|
-A Mite Not Right|QID|79998|PRE|81999|M|72.08,42.07|Z|2248|N|From Janky.|
-C Mite Not Right|QID|79998|M|71.71,41.34|Z|2248|QO|1|NC|N|Janky's Smoke Pump Activated (Optional).|
-C Mite Not Right|QID|79998|M|71.62,41.49|Z|2248|QO|2|N|Infesting Cindermite slain.|
-C Hot Wax|QID|79552|M|71.63,42.16|Z|2248|QO|1|NC|N|Fire Bee Wax.|
-T Hot Wax|QID|79552|M|72.10,42.04|Z|2248|N|To Janky.|
-T Mite Not Right|QID|79998|M|72.10,42.04|Z|2248|N|To Janky.|
-A Hot Pollenate-o|QID|80202|PRE|79552&79998|M|72.10,42.04|Z|2248|N|From Janky.|
-A Beebiter|QID|80000|PRE|79552&79998|M|72.10,42.04|Z|2248|N|From Janky.|
-C Hot Pollenate-o|QID|80202|M|72.14,40.95|Z|2248|QO|1|NC|N|Pollen Rich Cinderbloom touched (Optional).|
-C Beebiter|QID|80000|M|69.87,41.93|Z|2248|QO|1|N|Beebiter slain.|
-C Hot Pollenate-o|QID|80202|M|71.44,42.45|Z|2248|QO|2|NC|N|Pollen delivered to bees.|
-T Hot Pollenate-o|QID|80202|M|72.09,42.07|Z|2248|N|To Janky.|
-T Beebiter|QID|80000|M|72.09,42.07|Z|2248|N|To Janky.|
-A Janky Candles|QID|79565|PRE|80202&80000|M|72.09,42.07|Z|2248|N|From Janky.|
-h Gundargaz|QID|79565|M|47.95,32.15|Z|2214;The Ringing Deeps|N|At Innkeeper Brax.|
-C Janky Candles|QID|79565|M|47.44,32.56|Z|2214;The Ringing Deeps|QO|1|CHAT|N|Speak with Bosh.|
-C Janky Candles|QID|79565|M|47.95,32.15|Z|2214;The Ringing Deeps|QO|2|CHAT|N|Speak with Innkeeper Brax about Bosh's tab.|
-C Janky Candles|QID|79565|M|47.59,31.56|Z|2214;The Ringing Deeps|QO|3|CHAT|N|Speak with Foreman Shalea about the construction.|
-C Janky Candles|QID|79565|M|47.63,32.94|Z|2214;The Ringing Deeps|QO|4|CHAT|N|Speak to Machinist Valyka about the tools.|
-C Janky Candles|QID|79565|M|47.42,28.31|Z|2214;The Ringing Deeps|QO|5|CHAT|N|Speak to Foreman Svart about the coal shipment.|
-C Janky Candles|QID|79565|M|47.67,27.02|Z|2214;The Ringing Deeps|QO|6|NC|N|Elementally Active Coal.|
-C Janky Candles|QID|79565|M|47.69,32.93|Z|2214;The Ringing Deeps|QO|7|NC|N|Coal deliverd to Valyka.|
-C Janky Candles|QID|79565|M|47.57,31.62|Z|2214;The Ringing Deeps|QO|8|NC|N|Order delivered to Shalea.|
-C Janky Candles|QID|79565|M|47.96,32.18|Z|2214;The Ringing Deeps|QO|9|NC|N|Promise passed to Brax.|
-C Janky Candles|QID|79565|M|47.47,32.52|Z|2214;The Ringing Deeps|QO|10|NC|N|News brought to Bosh.|
-T Janky Candles|QID|79565|M|47.55,33.26|Z|2214;The Ringing Deeps|N|To Janky.|
-N Unlocked store |N| buy many of these buffs, all 3 are good for leveling|
-T On Cold, Dark Wings|QID|78900|M|48.03,34.79|Z|2214|N|To Watcher Toki.|
 C Cogs in the Machine|QID|78838|M|47.15,34.12|Z|2214|QO|4|NC|N|Return to Brinthe's house.|
 T Cogs in the Machine|QID|78838|M|47.17,34.17|Z|2214|N|To Speaker Brinthe.|
 A Speaking to the Speakers|QID|78631|PRE|78838|M|47.17,34.17|Z|2214|N|From Speaker Brinthe.|
@@ -498,32 +427,31 @@ C New Candle, New Hope|QID|78642|M|41.78,14.12|Z|2304|QO|1|CHAT|N|Speak with Ski
 C Kobold Disguise|Z|Darkflame Cleft|SO|1|S|N|Apply the disguise Skitter has made for you out of the scrap recovered from the Warrens.|
 C Kobold Disguise|Z|Darkflame Cleft|SO|1|US|N|Apply the disguise Skitter has made for you out of the scrap recovered from the Warrens.|
 C Snuff the Candles|Z|Darkflame Cleft|SO|2|S|N|Extinguish the large candles scattered about the chamber, plunging the area into darkness and driving off the massive kobold guarding the door.|
-C Disguise yourself as a kobold|M|44.96,21.61|Z|DarkFlame_Scenario#2304!Dungeon|SO|1;1|N|Disguise yourself as a kobold|
-C Candles snuffed|M|38.88,26.97|Z|DarkFlame_Scenario#2304!Dungeon|SO|2;1|N|Candles snuffed|
+C Disguise yourself as a kobold|M|44.96,21.61|Z|2304; DarkFlame Cleft!Dungeon|SO|1;1|N|Disguise yourself as a kobold|
+C Candles snuffed|M|38.88,26.97|Z|2304; DarkFlame Cleft!Dungeon|SO|2;1|N|Candles snuffed|
 C Snuff the Candles|Z|Darkflame Cleft|SO|2|US|N|Extinguish the large candles scattered about the chamber, plunging the area into darkness and driving off the massive kobold guarding the door.|
 C Kill Waximus|Z|Darkflame Cleft|SO|3|S|N|The way forward is blocked with waxy buildup. Defeat Waximus to dislodge it.|
-C Waximus slain|M|40.99,41.48|Z|DarkFlame_Scenario#2304!Dungeon|SO|3;1|N|Waximus slain|
+C Waximus slain|M|40.99,41.48|Z|2304; DarkFlame Cleft!Dungeon|SO|3;1|N|Waximus slain|
 C Kill Waximus|Z|Darkflame Cleft|SO|3|US|N|The way forward is blocked with waxy buildup. Defeat Waximus to dislodge it.|
 C Enter the Throne Room|Z|Darkflame Cleft|SO|4|S|N|Make your way into the Candle King's inner sanctum.|
-C Enter the Throne Room|M|41.29,69.16|Z|DarkFlame_Scenario#2304!Dungeon|SO|4;1|N|Enter the Throne Room|
+C Enter the Throne Room|M|41.29,69.16|Z|2304; DarkFlame Cleft!Dungeon|SO|4;1|N|Enter the Throne Room|
 C Enter the Throne Room|Z|Darkflame Cleft|SO|4|US|N|Make your way into the Candle King's inner sanctum.|
 C Acquire the Candle Keys from Dripear|Z|Darkflame Cleft|SO|5|S|N|Defeat Dripear the Waxy, the High Wax-o-mancer, and take his keys.|
-C Acquire the Candle Keys|M|41.25,83.69|Z|DarkFlame_Scenario#2304!Dungeon|SO|5;1|N|Acquire the Candle Keys|
+C Acquire the Candle Keys|M|41.25,83.69|Z|2304; DarkFlame Cleft!Dungeon|SO|5;1|N|Acquire the Candle Keys|
 C Acquire the Candle Keys from Dripear|Z|Darkflame Cleft|SO|5|US|N|Defeat Dripear the Waxy, the High Wax-o-mancer, and take his keys.|
 C Retrieve the Candle Crown|Z|Darkflame Cleft|SO|6|S|N|Search the Candle King's treasures for the Candle Crown.|
-C Retrieve the Candle Crown|M|44.42,89.79|Z|DarkFlame_Scenario#2304!Dungeon|SO|6;1|N|Retrieve the Candle Crown|
+C Retrieve the Candle Crown|M|44.42,89.79|Z|2304; DarkFlame Cleft!Dungeon|SO|6;1|N|Retrieve the Candle Crown|
 C Retrieve the Candle Crown|Z|Darkflame Cleft|SO|6|US|N|Search the Candle King's treasures for the Candle Crown.|
 C Escape the Lost Mines!|Z|Darkflame Cleft|SO|7|S|N|Speak with Skitter to tunnel out before the Candle King returns!|
 C New Candle, New Hope|QID|78642|M|44.42,89.79|Z|2304|QO|2|NC|N|Candle Crown retrieved.|
-C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|DarkFlame_Scenario#2304!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
+C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|2304; DarkFlame Cleft!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
 C Escape the Lost Mines!|Z|Darkflame Cleft|SO|7|US|N|nil|
-C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|DarkFlame_Scenario#2304!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
+C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|2304; DarkFlame Cleft!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
 C nil|Z|Darkflame Cleft|SO|0|S|N|nil|
 C nil|Z|Darkflame Cleft|SO|0|S|N|nil|
 C nil|Z|Darkflame Cleft|SO|0|S|N|nil|
 T New Candle, New Hope|QID|78642|M|61.53,32.01|Z|2214|N|To Skitter.|
 A Back to Gundargaz|QID|80082|PRE|78642|M|61.53,32.01|Z|2214|N|From Speaker Brinthe.|
-A Thieving Snufflers|QID|83028|PRE|78642|M|53.14,34.58|Z|2214|
 T Back to Gundargaz|QID|80082|M|47.11,33.26|Z|2214|N|To Speaker Brinthe.|
 A A Wrench in the Works|QID|80079|PRE|78900&80082|M|47.11,33.26|Z|2214|N|From Moira Thaurissan.|
 C A Wrench in the Works|QID|80079|M|47.24,32.24|Z|2214|QO|1|NC|N|Grievance heard.|
@@ -602,7 +530,6 @@ T Dread in the Den|QID|80508|M|69.62,41.10|Z|2214|N|To Scrit.|
 A A Suit of Slime|QID|80509|PRE|79372&79371&80508|M|69.62,41.10|Z|2214|N|From Scrit.|
 A Healing the Headwaters|QID|80510|PRE|79372&79371&80508|M|69.62,41.10|Z|2214|N|From Scrit.|
 A Report to the Councilward|QID|79525|M|69.63,41.10|Z|2214|
-A What Army?|QID|81981|M|70.14,40.15|Z|2214|N|From Congealed Wax-hulk.|
 C Healing the Headwaters|QID|80510|M|69.17,38.46|Z|2214|QO|1|NC|N|Polluting Scrap removed.|
 C A Suit of Slime|QID|80509|M|68.71,38.41|Z|2214|QO|1|NC|N|Sticky Wax.|
 C A Suit of Slime|QID|80509|M|69.63,41.15|Z|2214|QO|2|CHAT|N|Speak to Scrit.|
@@ -880,7 +807,6 @@ C Nightwatch|QID|79297|M|43.00,56.13|Z|2215;Hallowfall|QO|1|NC|N|Order of Night 
 C Nightwatch|QID|79297|M|43.12,56.23|Z|2215;Hallowfall|QO|3|NC|N|Find Faerin in the Armory (Optional).|
 C Nightwatch|QID|79297|M|41.34,52.97|Z|2215;Hallowfall|QO|4|NC|N|Meet General Steelstrike in the Barracks.|
 T Nightwatch|QID|79297|M|41.29,52.99|Z|2215;Hallowfall|N|To General Steelstrike.|
-A The Light's Call|QID|81990|PRE|82477|M|41.28,53.05|Z|2215|N|From Auralia Steelstrike.|
 A Economical Request|QID|82216|PRE|82477|M|41.27,53.06|Z|2215|N|From Auralia Steelstrike.|
 C Economical Request|QID|82216|M|41.27,53.06|Z|2215|QO|1|NC|N|Suggest Additional Trading Partners.|
 C Economical Request|QID|82216|M|41.26,53.09|Z|2215|QO|2|NC|N|Write a letter of Recommendation.|
@@ -938,6 +864,7 @@ A Dreaded Dreadfang|QID|79643|PRE|79642&79641|M|30.00,58.75|Z|2215|N|From Baron 
 C Dreaded Dreadfang|QID|79643|M|29.06,61.91|Z|2215|QO|1|N|Dreadfang the Merciless slain.|
 T Dreaded Dreadfang|QID|79643|M|29.07,61.84|Z|2215|N|To Baron Sybaestan Braunpyke.|
 A Go to the Priory|QID|79644|PRE|79643|M|29.07,61.84|Z|2215|N|From Baron Sybaestan Braunpyke.|
+A The Final Front|QID|78627|PRE|79089&80049|M|33.61,54.64|Z|2215|
 C Fishing is Good for the Soul|QID|79160|M|39.42,63.77|Z|2215|QO|1|NC|N|Meet Shinda Creedpike by his fishing hole.|
 C Fishing is Good for the Soul|QID|79160|M|39.83,63.08|Z|2215|QO|2|NC|N|Clear the creatures around the fishing hole.|
 T Fishing is Good for the Soul|QID|79160|M|39.46,63.90|Z|2215|N|To Shinda Creedpike.|
@@ -950,12 +877,12 @@ C Arcane Experiments|QID|80177|M|53.91,66.92|Z|2215|QO|3|NC|N|Help Wenren throug
 C Arcane Experiments|QID|80177|M|63.46,43.86|Z|2215|QO|4|NC|N|Portal taken.|
 C Suspicious Minds|QID|83247|M|65.03,39.92|Z|2215|QO|1|NC|N|Salamanther Heart.|
 C For Morale|QID|83283|M|64.89,39.92|Z|2215|QO|1|NC|N|Imperial Brut.|
-T For Morale|QID|83283|M|68.02,44.25|Z|2215|N|To Lerrenai Fayn.|
-T Suspicious Minds|QID|83247|M|68.03,44.26|Z|2215|N|To Derill Fayn.|
 C Arcane Experiments|QID|80177|M|63.47,43.87|Z|2215|QO|5|NC|N|Help Wenren through the portal.|
 C Does Anyone Like Wasps?|QID|82214|M|62.25,46.01|Z|2215|QO|1|N|Shacklefang Hornet slain.|
 C A Batty Request|QID|82213|M|61.40,46.16|Z|2215|QO|1|NC|N|Shacklefang Leafnose Meat.|
 C Regular Fiber|QID|82215|M|61.27,46.26|Z|2215|QO|1|NC|N|Tough Ivy Fiber.|
+T For Morale|QID|83283|M|68.02,44.25|Z|2215|N|To Lerrenai Fayn.|
+T Suspicious Minds|QID|83247|M|68.03,44.26|Z|2215|N|To Derill Fayn.|
 T A Batty Request|QID|82213|M|68.43,44.58|Z|2215|N|To Auralia Steelstrike.|
 T Does Anyone Like Wasps?|QID|82214|M|68.43,44.58|Z|2215|N|To Auralia Steelstrike.|
 T Regular Fiber|QID|82215|M|68.43,44.58|Z|2215|N|To Auralia Steelstrike.|
@@ -965,7 +892,6 @@ C Underground Economics|QID|82217|M|68.45,44.59|Z|2215|QO|2|NC|N|Display Arathi 
 C Underground Economics|QID|82217|M|68.49,44.64|Z|2215|QO|3|NC|N|Convince Andee Seabraid to trade with the Arathi.|
 C Underground Economics|QID|82217|M|68.48,44.58|Z|2215|QO|4|NC|N|Convince Teha to Trade with the Arathi.|
 T Underground Economics|QID|82217|M|68.46,44.61|Z|2215|N|To General Steelstrike.|
-A Spreading the Light|QID|76586|PRE|82217|M|61.23,30.93|Z|2215|
 A Keep the Home Fires Burning|QID|76247|PRE|82217|M|61.15,30.53|Z|2215|N|From Aliya Hillhelm.|
 A Seeds of Evil|QID|79108|PRE|82217|M|61.17,30.53|Z|2215|N|From Aliya Hillhelm.|
 C Spreading the Light|QID|76586|M|61.24,29.17|Z|2215|QO|2|NC|N|Radiant Remnant collected from creatures (Optional).|
@@ -1013,7 +939,11 @@ C Finding Justice|QID|80179|M|46.00,64.56|Z|2215|QO|2|NC|N|Wenren's killer found
 T Finding Justice|QID|80179|M|40.54,50.78|Z|2215;Hallowfall|N|To General Steelstrike.|
 T Burnout|QID|79162|M|41.44,52.48|Z|2215;Hallowfall|N|To Endiri Dawnsurge.|
 T A Final Goodbye|QID|79154|M|41.81,55.38|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
-A The Final Front|QID|78627|PRE|79089&80049|M|33.61,54.64|Z|2215|
+T The Sword is Mightier|QID|82479|M|46.56,59.84|Z|2215;Hallowfall|N|To Orren Masyn.|
+A Job Killing Robot Or...|QID|82480|PRE|82479|M|46.56,59.84|Z|2215;Hallowfall|N|From Orren Masyn.|
+C Job Killing Robot Or...|QID|82480|M|45.71,57.22|Z|2215;Hallowfall|QO|1|NC|U|211945|N|ELIZA stopped.|
+C Job Killing Robot Or...|QID|82480|M|49.36,62.08|Z|2215;Hallowfall|QO|2|NC|U|211945|N|Aemyra's message delivered.|
+T Job Killing Robot Or...|QID|82480|M|49.35,62.08|Z|2215;Hallowfall|N|To Orren Masyn.|
 C The Final Front|QID|78627|M|38.95,71.26|Z|2215|QO|1|NC|N|Travel to Light's Redoubt.|
 T The Final Front|QID|78627|M|38.97,71.58|Z|2215|N|To General Steelstrike.|
 A Trapdoor Sprung|QID|78628|PRE|78627|M|38.97,71.58|Z|2215|N|From General Steelstrike.|
